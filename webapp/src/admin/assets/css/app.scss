@@ -1,0 +1,16 @@
+/*!
+ * @名称：app.css
+ * @功能：1、定义公共的全局样式
+ *
+ */
+ *{
+     font-weight: $YH_light;
+ }
+ .page{
+    background-color: #fff;
+    min-height: 100% ;
+    border-radius: 2px;
+ }
+ .el-main{
+    background-color: $admin_table_header;
+ }

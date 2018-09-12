@@ -1,0 +1,61 @@
+/*!
+ * @名称：reset-element-ui.css
+ * @功能：1、应用到全局的重设饿了么ui样式
+ *
+ */
+
+
+ /* 手机上使用的 dialog 请加class m-dialog */
+
+ .m-dialog .el-dialog{
+    border-radius: 8px;
+    width: 86.24%;
+    margin-top: 26vh!important;
+  }
+
+ .m-dialog .el-dialog--center .el-dialog__body{
+    padding: 16.96vw 0px 13.48vw 0px;
+ }
+ .m-dialog .el-dialog--center .el-dialog__body .remind{
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 4.27vw;
+    font-weight: 600;
+  }
+  .m-dialog .el-dialog__header{
+    padding: 0px;
+  }
+  .m-dialog .el-dialog__headerbtn{
+    display: none;
+  }
+
+  .m-dialog .el-dialog .button{
+    display: inline-block;
+    height: 13.2vw;
+    line-height: 13.2vw;
+    text-align: center;
+    width: 49%;
+    font-size: 4.27vw;
+  }
+  .m-dialog .el-dialog .button-cancel{
+    color: #000;
+    font-weight: 500;
+  }
+  .m-dialog .el-dialog .button-login{
+    color: #59BFC6;
+    font-weight: 500;
+  }
+  .m-dialog .el-dialog__footer{
+    position: relative;
+    border-top: 1px solid #D4D4D4;
+    height: 13.3vw;
+    padding: 0px;
+  }
+  .m-dialog .el-dialog__footer .button-line{
+    position: absolute;
+    height: 100%;
+    width:1px;
+    top:0;
+    left: 50%;
+    border-right: 1px solid #D4D4D4;
+  }

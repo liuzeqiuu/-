@@ -1,0 +1,75 @@
+/*!
+ * @名称：quickstyle.css
+ * @功能：1、快捷样式 
+ *
+ */
+
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1; /* for ie6 & ie7 */
+}
+.clear {
+    clear:both;
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    overflow:hidden;
+}
+.rel{
+    position: relative;
+}
+/* 设置显示和隐藏，通常用来与 js 配合 */
+.hide {
+    display:none;
+}
+.block {
+    display:block;
+}
+/* 设置浮动，减少浮动带来的 bug */
+.fl,.fr {
+    display:inline;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.ifr{
+    float: right!important;
+}
+.ifl{
+    float: left!important;
+}
+.ml60{
+    margin-left: 60px;
+}
+.f24{
+    font-size: 24px;
+}
+.f20{
+    font-size: 20px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pointer{
+    cursor: pointer;
+}
+.tc{
+    text-align: center;
+}
+.lt1{
+    letter-spacing: 1px;
+}

@@ -1,0 +1,67 @@
+{
+  "name": "mall.bityuan.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --modern",
+    "debug": "vue-cli-service build --modern --mode debug && bash ../deploy2TestServer.sh",
+    "lint": "vue-cli-service lint --fix",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "better-scroll": "^1.12.6",
+    "clipboard": "^2.0.1",
+    "normalize.css": "^8.0.0",
+    "qrcode": "^1.2.2",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-clipboard2": "^0.2.1",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-router": "^3.0.1",
+    "vue2-editor": "^2.5.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-plugin-pwa": "^3.0.0-beta.15",
+    "@vue/cli-plugin-unit-mocha": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/eslint-config-standard": "^3.0.0-rc.3",
+    "@vue/test-utils": "^1.0.0-beta.16",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "chai": "^4.1.2",
+    "element-ui": "^2.4.2",
+    "lint-staged": "^6.0.0",
+    "node-sass": "^4.9.0",
+    "qrcode": "^1.2.2",
+    "qrcodejs2": "0.0.2",
+    "sass-loader": "^7.0.1",
+    "vue-clipboard2": "^0.2.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "main": "index.js",
+  "license": "MIT"
+}

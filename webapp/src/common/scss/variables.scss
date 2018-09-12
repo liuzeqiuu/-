@@ -1,0 +1,61 @@
+/*
+ * 全局sass变量集
+ */
+
+/* 客户端淡色背景 */
+$client_bg_light: #f7f7f7;
+$client_bg_dark: #2E2E2E;
+
+/* 客户端active态主色 */
+$client_primary_color: #59BFC6;
+$client_primary_shadow: 0px 0px 9px rgba(90,200,201,0.4);
+$client_primary_light: #EEF9F9;
+$client_bg_white: #fff;
+$client_bg_light_grey: #F0F4F5;
+$client_red_color: #EF4343;
+$client_tab_color: #717171;
+$client_tab_content_pre: #72BCC3;
+$client_tab_content_ready: #F19F3F;
+$client_tab_content_end: #999999;
+$client_tab_content_red: #EF4343;
+$client_tab_content_grey: #949494;
+$client_tab_content_cord: #69788C;
+$client_tab_content_sign: #8D8D8D;
+$client_border_Lightgrey: #EDEDED;
+$client_border_grey: #A1A1A1;
+$client_border_green: #51C296;
+/* 字重 微软雅黑搭配300~500 */
+$YH_light: 300;
+$YH_regular: 400;
+$YH_bold: 500;
+$YH_big: 700;
+
+/*字体family   */
+$PF_Regular: PingFangSC-Regular;
+$PF_Light: PingFangSC-Light;
+$SHSC_Regular: SourceHanSansCN-Regular;
+
+/*字体颜色 */
+$font_light_grey: #999;
+$font_deep_black: #000;
+$font_light_red: #d95757;
+$font_deep_red: #BE2F1F;
+$font_light_white: #fff;
+$font_lighter_grey: #D7D7D7;
+$font_deep_grey: #A0A0A0;
+$font_deeper_grey: #5F606A;
+$font_light_yellow: #F3B94E;
+$font_deep_blue: #0069B1;
+$font_deeper_blue: #00BCD4;
+
+
+/* 管理端 深色 */
+$admin_bg_dark : #2E2E2E ;
+$admin_bg_light: #f7f7f7;
+$admin_bg_white: #fff;
+
+$admin_main_color: #59BFC6;                                 //主调色
+$admin_table_border: #dedbdb;                               //表格边框颜色
+$admin_table_header: #ececec;                               //表格头背景颜色
+$admin_input_border: #999;                                  //输入框边框颜色
+$admin_btn_grey: #8a8a8a;                                   //按钮背景色

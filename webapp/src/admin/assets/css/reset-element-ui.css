@@ -1,0 +1,8 @@
+/*!
+ * @名称：reset-element-ui.css
+ * @功能：1、应用到全局的重设饿了么ui样式
+ *
+ */
+ .el-container.full{
+     min-height: 100%;
+ }

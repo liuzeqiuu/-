@@ -1,0 +1,20 @@
+/*!
+ * @名称：app.css
+ * @功能：1、定义公共的全局样式
+ *
+ */
+ *{
+     font-weight: $YH_light;
+ }
+.whiteColor-blueBackground{
+  color: white;
+  background: #59BFC6;
+  border-color:  #59BFC6;
+}
+.redColor{
+  color: #EF4343;
+}
+.whiteColor-grayBackground{
+  color: white;
+  background: gray;
+}
